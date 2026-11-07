@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OrbitCut: a radial shortcut menu for your Mac</title>
+<meta name="description" content="OrbitCut opens a radial menu at your cursor with the commands of the app you are using. Press one shortcut, point at a slice, and let go. Free 7-day trial for macOS.">
+<meta property="og:title" content="OrbitCut: a radial shortcut menu for your Mac">
+<meta property="og:description" content="Press one shortcut, point at a slice, let go. A different menu for every app, built automatically.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="wrap nav">
+  <a class="brand" href="index.html"><img src="favicon.svg" alt="" width="32" height="32">OrbitCut</a>
+  <nav class="nav-links" aria-label="Main">
+    <a class="hide-sm" href="#how">How it works</a>
+    <a class="hide-sm" href="#features">Features</a>
+    <a class="hide-sm" href="#pricing">Pricing</a>
+    <a class="hide-sm" href="#faq">FAQ</a>
+    <a class="btn btn-primary btn-small" href="mailto:staryou268@gmail.com?subject=OrbitCut%20early%20access">Download free trial</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Every shortcut, one flick from your cursor.</h1>
+        <p class="lede">OrbitCut opens a radial menu right where you are pointing, filled with the commands of the app you are using. Press one shortcut, point at a slice, and let go.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:staryou268@gmail.com?subject=OrbitCut%20early%20access">Download free trial</a>
+          <a class="btn btn-ghost" href="mailto:staryou268@gmail.com?subject=OrbitCut%20early%20access">Buy lifetime licence, $14.99</a>
+        </div>
+        <p class="fine">Needs macOS 14 or later. The trial lasts 7 days, and after that you still get 10 menu opens a day for free.</p>
+      </div>
+
+      <div class="stage-wrap">
+        <div class="stage">
+          <svg id="pie" class="pie" viewBox="0 0 440 440" role="group" aria-label="Interactive demo of an OrbitCut menu. Hover over a slice to see its name and shortcut."></svg>
+          <noscript><div class="noscript">Turn on JavaScript to try the live demo.</div></noscript>
+        </div>
+        <div class="ctx" id="ctx" role="group" aria-label="Choose an app to preview">
+          <button type="button" data-ctx="safari" aria-pressed="true">Safari</button>
+          <button type="button" data-ctx="mail" aria-pressed="false">Mail</button>
+          <button type="button" data-ctx="desktop" aria-pressed="false">Desktop</button>
+        </div>
+        <p class="ctx-note">Each app gets its own menu. Try the demo with your mouse.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apps -->
+  <div class="band">
+    <div class="wrap">
+      <p>Ready on day one for Safari, Chrome, Firefox, Arc, Brave, Edge, Finder, Mail, Calendar, Terminal, Slack, Figma, Notion, Zoom, Xcode, VS Code and Notes. Every other app builds its own menu.</p>
+      <p class="small">Product names belong to their owners. OrbitCut is not affiliated with them.</p>
+    </div>
+  </div>
+
+  <!-- How it works -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="intro">
+        <h2>Press, point, release.</h2>
+        <p>There is nothing to learn. If you can move a mouse, you already know how to use it.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Press your shortcut</h3>
+          <p>The menu appears under your cursor. The default is Control, Option, P, and you can change it to any combination you like.</p>
+        </li>
+        <li>
+          <h3>Point at a slice</h3>
+          <p>Each app has its own menu. Hover over a slice and the name and keyboard shortcut show in the centre.</p>
+        </li>
+        <li>
+          <h3>Let go, or click</h3>
+          <p>Hold the shortcut and release over a slice, or tap it once to keep the menu open and click. Press 1 to 9 to pick by number.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section-tight" id="features">
+    <div class="wrap split">
+      <div class="sticky">
+        <h2>Built to stay out of your way.</h2>
+        <p>OrbitCut lives in your menu bar, opens in a fraction of a second, and does nothing until you call it.</p>
+      </div>
+      <div class="rows">
+        <div>
+          <h3>Menus that build themselves</h3>
+          <p>Open an app OrbitCut has not seen before and it reads that app's menu bar, then starts with the three commands people reach for most. Add an app in Settings and it starts with eight.</p>
+        </div>
+        <div>
+          <h3>It learns your habits</h3>
+          <p>Command shortcuts you use often earn a slice of their own. OrbitCut counts only the shortcut and the app, never what you type, and the counts stay on your Mac. You can switch it off or wipe it at any time.</p>
+        </div>
+        <div>
+          <h3>A separate menu for the desktop</h3>
+          <p>Point at the desktop instead of a window and you get a different menu: new folder, screenshot, wallpaper, Spotlight and more.</p>
+        </div>
+        <div>
+          <h3>Submenus for the long tail</h3>
+          <p>Group related actions into a submenu. Click the centre or press Escape to go back.</p>
+        </div>
+        <div>
+          <h3>Your icons, your names</h3>
+          <p>Choose from the Apple symbol set or use your own PNG, SVG or PDF images. Reorder slices by dragging, and edit every shortcut yourself.</p>
+        </div>
+        <div>
+          <h3>Designed for the Mac</h3>
+          <p>Liquid Glass on macOS 26, a frosted look on earlier versions, or a solid style. Pick the highlight colour, size and the gap between slices.</p>
+        </div>
+        <div>
+          <h3>Siri on every menu</h3>
+          <p>An optional slice opens Siri over whatever you are working on.</p>
+        </div>
+        <div>
+          <h3>Easy to back up and move</h3>
+          <p>Export every menu and setting to one file and import it on another Mac.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section" id="pricing">
+    <div class="wrap">
+      <div class="intro">
+        <h2>Pay once. Keep it.</h2>
+        <p>No subscription. Try everything free for 7 days, then keep using it free with a daily limit, or buy a licence for unlimited use.</p>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3>
+          <div class="price">$0</div>
+          <p class="sub">After your 7-day trial</p>
+          <ul>
+            <li>Every feature</li>
+            <li>10 menu opens per day</li>
+            <li>No account needed</li>
+          </ul>
+          <a class="btn btn-ghost" href="mailto:staryou268@gmail.com?subject=OrbitCut%20early%20access">Download free trial</a>
+        </div>
+        <div class="plan plan-strong">
+          <h3>Lifetime licence</h3>
+          <div class="price">$14.99<span class="was">$19.99</span></div>
+          <p class="sub">Launch price, one payment</p>
+          <ul>
+            <li>Unlimited menu opens</li>
+            <li>Use it on up to 3 of your Macs</li>
+            <li>All updates for version 1</li>
+            <li>14-day refund</li>
+          </ul>
+          <a class="btn btn-primary" href="mailto:staryou268@gmail.com?subject=OrbitCut%20early%20access">Buy lifetime licence</a>
+        </div>
+      </div>
+      <p class="plan-note">Checkout is handled by Lemon Squeezy, who also take care of sales tax. Your licence key arrives by email straight after payment.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-tight" id="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <div class="faq">
+        <details>
+          <summary>Which Macs does it run on?</summary>
+          <p>OrbitCut needs macOS 14 Sonoma or later. The Liquid Glass look needs macOS 26, and earlier versions use the frosted style automatically.</p>
+        </details>
+        <details>
+          <summary>Why does it ask for Accessibility access?</summary>
+          <p>macOS requires it for any app that presses keyboard shortcuts for you, notices your OrbitCut shortcut, or reads another app's menu names. OrbitCut does not read your documents, and nothing it sees leaves your Mac. macOS asks once, and you can turn it off at any time in System Settings.</p>
+        </details>
+        <details>
+          <summary>What data do you collect?</summary>
+          <p>None about how you use your Mac. The app only contacts the internet to check your licence key and to look for updates. Read the <a href="privacy.html">privacy policy</a> for the details.</p>
+        </details>
+        <details>
+          <summary>Does it work with every app?</summary>
+          <p>It works with any app that shows keyboard shortcuts in its menu bar, and you can add your own slices to any app. A few apps, such as some games and cross-platform tools, hide their menus. For those, OrbitCut shows a general menu that you can edit.</p>
+        </details>
+        <details>
+          <summary>Can I try it before I buy?</summary>
+          <p>Yes. Download it, and every feature is free for 7 days. After that you keep 10 menu opens a day without paying anything.</p>
+        </details>
+        <details>
+          <summary>How many Macs can I use it on?</summary>
+          <p>One licence covers up to 3 of your Macs. To move it to a new Mac, deactivate the old one from the app's settings.</p>
+        </details>
+        <details>
+          <summary>Can I open it with a mouse button?</summary>
+          <p>Yes. Use your mouse's own software to map a button to your OrbitCut shortcut.</p>
+        </details>
+        <details>
+          <summary>What if I am not happy with it?</summary>
+          <p>Email us within 14 days of buying and we will refund you. See the <a href="refund.html">refund policy</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="brand"><img src="favicon.svg" alt="" width="32" height="32">OrbitCut</div>
+      <p>A radial shortcut menu for the Mac.</p>
+      <p class="legal">Mac, macOS, Siri, Safari, Finder, Mail and Spotlight are trademarks of Apple Inc. Other product names belong to their owners. OrbitCut is an independent app and is not affiliated with or endorsed by them.</p>
+      <p class="legal">&copy; 2026 Saran Teja. All rights reserved.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy policy</a>
+      <a href="refund.html">Refund policy</a>
+      <a href="terms.html">Terms of use</a>
+      <a href="mailto:staryou268@gmail.com">staryou268@gmail.com</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  // Icon shapes (24 by 24 grid). Drawn once, reused by every slice.
+  var ICONS = {
+    plus: "M12 5v14M5 12h14",
+    x: "M6 6l12 12M18 6L6 18",
+    right: "M9 5l7 7-7 7",
+    left: "M15 5l-7 7 7 7",
+    search: "M4.5 10.5a6 6 0 1 0 12 0 6 6 0 1 0-12 0M15 15l5 5",
+    reload: "M20 12a8 8 0 1 1-2.5-5.8M20 4.5V9h-4.5",
+    reopen: "M4 12a8 8 0 1 0 2.5-5.8M4 4.5V9h4.5",
+    globe: "M4 12a8 8 0 1 0 16 0 8 8 0 1 0-16 0M4 12h16M12 4c3 3.2 3 12.8 0 16M12 4c-3 3.2-3 12.8 0 16",
+    compose: "M4 20h4l10.5-10.5-4-4L4 16zM13 7l4 4",
+    reply: "M10 6L4 12l6 6M4 12h9a7 7 0 0 1 7 7",
+    replyall: "M9 7l-5 5 5 5M14 7l-5 5 5 5M9 12h6a5 5 0 0 1 5 5",
+    forward: "M15 6l6 6-6 6M21 12H12a8 8 0 0 0-8 8",
+    tray: "M12 4v10M8 10.5l4 4 4-4M4 15v4.5h16V15",
+    archive: "M4 6h16v4H4zM6 10v9h12v-9M10 14h4",
+    flag: "M6 21V4M6 5h11l-2 4 2 4H6",
+    trash: "M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13M10 11v6M14 11v6",
+    folderplus: "M3 7.5h6l2 2h10V19H3zM12 12.5v4.5M9.8 14.8h4.4",
+    viewfinder: "M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5M12 9.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5",
+    photo: "M4 5h16v14H4zM4 16l5-5 4 4 3-3 4 4M15.5 9.5h.01",
+    sliders: "M4 8h9M17 8h3M13 6v4M4 16h3M11 16h9M7 14v4",
+    info: "M4 12a8 8 0 1 0 16 0 8 8 0 1 0-16 0M12 11v5.5M12 7.8h.01",
+    mission: "M4 5h16v5H4zM4 13h7v6H4zM13 13h7v6h-7z",
+    terminal: "M4 5h16v14H4zM7.5 9.5l3 2.5-3 2.5M13 15h4"
+  };
+
+  // The same menus the app ships with.
+  var CONTEXTS = {
+    safari: { name: "Safari", slices: [
+      ["New Tab", "\u2318T", "plus"], ["Reopen Tab", "\u21E7\u2318T", "reopen"],
+      ["Forward", "\u2318]", "right"], ["Reload", "\u2318R", "reload"],
+      ["Close Tab", "\u2318W", "x"], ["Find", "\u2318F", "search"],
+      ["Back", "\u2318[", "left"], ["Address Bar", "\u2318L", "globe"]
+    ]},
+    mail: { name: "Mail", slices: [
+      ["New Message", "\u2318N", "compose"], ["Reply", "\u2318R", "reply"],
+      ["Reply All", "\u21E7\u2318R", "replyall"], ["Forward", "\u21E7\u2318F", "forward"],
+      ["Get Mail", "\u21E7\u2318N", "tray"], ["Archive", "\u2303\u2318A", "archive"],
+      ["Flag", "\u21E7\u2318L", "flag"], ["Delete", "\u2318\u232B", "trash"]
+    ]},
+    desktop: { name: "Desktop", slices: [
+      ["New Folder", "\u21E7\u2318N", "folderplus"], ["Screenshot", "\u21E7\u23185", "viewfinder"],
+      ["Wallpaper", "Settings", "photo"], ["View Options", "\u2318J", "sliders"],
+      ["Get Info", "\u2318I", "info"], ["Spotlight", "\u2318Space", "search"],
+      ["Mission Control", "\u2303\u2191", "mission"], ["Terminal", "Opens the app", "terminal"]
+    ]}
+  };
+
+  var NS = "http://www.w3.org/2000/svg";
+  var C = 220, R = 194, r = 66, GAP = 1.6, MID = (R + r) / 2, ICON = 28;
+  var svg = document.getElementById("pie");
+  if (!svg) return;
+
+  function el(name, attrs, parent) {
+    var node = document.createElementNS(NS, name);
+    for (var k in attrs) { node.setAttribute(k, attrs[k]); }
+    if (parent) { parent.appendChild(node); }
+    return node;
+  }
+
+  function pt(radius, deg) {
+    var a = deg * Math.PI / 180;
+    return [C + radius * Math.cos(a), C + radius * Math.sin(a)];
+  }
+
+  function slicePath(i, n) {
+    var w = 360 / n, c = -90 + i * w, s = c - w / 2 + GAP / 2, e = c + w / 2 - GAP / 2;
+    var a = pt(R, s), b = pt(R, e), d = pt(r, e), f = pt(r, s);
+    function p(v) { return v[0].toFixed(2) + " " + v[1].toFixed(2); }
+    return "M" + p(a) + "A" + R + " " + R + " 0 0 1 " + p(b) + "L" + p(d) +
+           "A" + r + " " + r + " 0 0 0 " + p(f) + "Z";
+  }
+
+  // Shared definitions: icons, glass fill, shadow.
+  var defs = el("defs", {}, svg);
+  Object.keys(ICONS).forEach(function (id) {
+    var sym = el("symbol", { id: "ic-" + id, viewBox: "0 0 24 24" }, defs);
+    el("path", { d: ICONS[id] }, sym);
+  });
+  var glass = el("linearGradient", { id: "glass", x1: "0", y1: "0", x2: "1", y2: "1" }, defs);
+  el("stop", { offset: "0", "stop-color": "#fff", "stop-opacity": "0.50" }, glass);
+  el("stop", { offset: "1", "stop-color": "#fff", "stop-opacity": "0.16" }, glass);
+  var shadow = el("filter", { id: "soft", x: "-20%", y: "-20%", width: "140%", height: "150%" }, defs);
+  el("feDropShadow", { dx: "0", dy: "8", stdDeviation: "10", "flood-color": "#1b1060", "flood-opacity": "0.38" }, shadow);
+
+  var layer = el("g", { filter: "url(#soft)" }, svg);
+  var slicesLayer = el("g", {}, layer);
+  var hub = el("g", { "class": "hub" }, layer);
+  el("circle", { cx: C, cy: C, r: r - 4 }, hub);
+  var hubName = el("text", { x: C, y: C - 1, "class": "hub-name" }, hub);
+  var hubKey = el("text", { x: C, y: C + 20, "class": "hub-key" }, hub);
+
+  var current = "safari", nodes = [], offsets = [], touched = false;
+
+  function setHub(name, key) {
+    hubName.textContent = name;
+    hubKey.textContent = key;
+  }
+
+  // One place decides which slice is highlighted and pushed outward.
+  function setHot(index) {
+    nodes.forEach(function (n, i) {
+      var hot = (i === index);
+      n.classList.toggle("hot", hot);
+      n.style.transform = hot ? "translate(" + offsets[i][0] + "px," + offsets[i][1] + "px)" : "";
+    });
+    var ctx = CONTEXTS[current];
+    if (index === null) { setHub(ctx.name, ""); return; }
+    var s = ctx.slices[index];
+    setHub(s[0], s[1]);
+  }
+
+  function render(key, animate) {
+    current = key;
+    nodes = [];
+    offsets = [];
+    while (slicesLayer.firstChild) { slicesLayer.removeChild(slicesLayer.firstChild); }
+    var ctx = CONTEXTS[key], n = ctx.slices.length, w = 360 / n;
+
+    ctx.slices.forEach(function (s, i) {
+      var slot = el("g", { "class": "slot" }, slicesLayer);
+      if (animate) { slot.style.animationDelay = (i * 45) + "ms"; } else { slot.style.animation = "none"; }
+
+      var g = el("g", { "class": "slice", tabindex: "0", role: "img",
+                        "aria-label": s[0] + ", " + s[1] }, slot);
+      el("path", { d: slicePath(i, n) }, g);
+      var mid = pt(MID, -90 + i * w);
+      var u = el("use", { href: "#ic-" + s[2], "class": "icon",
+                          x: (mid[0] - ICON / 2).toFixed(2), y: (mid[1] - ICON / 2).toFixed(2),
+                          width: ICON, height: ICON }, g);
+      u.setAttribute("pointer-events", "none");
+
+      var rad = (-90 + i * w) * Math.PI / 180;
+      offsets.push([(7 * Math.cos(rad)).toFixed(2), (7 * Math.sin(rad)).toFixed(2)]);
+
+      function on() { touched = true; setHot(i); }
+      function off() { if (touched) { setHot(null); } }
+      g.addEventListener("pointerenter", on);
+      g.addEventListener("pointerleave", off);
+      g.addEventListener("focus", on);
+      g.addEventListener("blur", off);
+      g.addEventListener("click", on);
+      nodes.push(g);
+    });
+
+    // First view: show one slice highlighted so the menu looks alive.
+    touched = false;
+    setHot(key === "safari" ? 3 : 0);
+  }
+
+  document.getElementById("ctx").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-ctx]");
+    if (!b) { return; }
+    Array.prototype.forEach.call(this.querySelectorAll("button"), function (x) {
+      x.setAttribute("aria-pressed", x === b ? "true" : "false");
+    });
+    render(b.getAttribute("data-ctx"), true);
+  });
+
+  render("safari", true);
+})();
+</script>
+</body>
+</html>
